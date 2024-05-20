@@ -62,7 +62,7 @@ This is a URL Shortener web application that allows users to shorten long URLs. 
 
     ```env
     PORT=5000
-    MONGO_URI=your_mongodb_connection_string
+    mongoUrl=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret
     ```
 
@@ -80,7 +80,7 @@ This is a URL Shortener web application that allows users to shorten long URLs. 
     npm run dev
     ```
 
-6. Open your browser and navigate to `http://localhost:3000` to view the application.
+6. Open your browser and navigate to `http://localhost:5173` to view the application.
 
 ## Usage
 
