@@ -1,0 +1,55 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    text-align: center;
+    padding: 50px;
+    background: #fc8181;
+    height: 100vh-100px;
+  }
+  
+  .header {
+    margin-top: 50px;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .login-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .login-btn:hover {
+    background: #0056b3;
+  }
+  
+  .signup-btn {
+    background: #28a745;
+    color: white;
+  }
+  
+  .signup-btn:hover {
+    background: #218838;
+  }
+  
